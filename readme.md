@@ -4,6 +4,6 @@
 
 The scripts in this repository should generate a Kiwix ZIM file from the Python HTML docs for offline use.
 
-It should be available here:
+The output is available here:
 
 https://python-docs-zim.netlify.com/python-docs-3.7.zim
