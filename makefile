@@ -2,7 +2,7 @@ version=3.7.4
 
 all: python-docs-3.7.zim
 
-python-docs-3.7.zim:
+python-docs-3.7.zim: zimwriterfs python-docs
 	./zimwriterfs -f logo.png -w index.html -l en -t "Python 3.7" -d Python -c Python -p jncraton -i python-$(version)-docs-html python-docs-3.7.zim
 
 python-docs:
